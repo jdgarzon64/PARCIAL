@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.papay.parcial.DeudasFragment"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/nombreQuienDebo"
+        android:hint="nombre de quien le debo" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/mondoDeudaDebo"
+        android:inputType="number"
+        android:hint="cuanto debo" />
+
+    <Button
+        android:text="tomar foto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnQuienDebo" />
+
+    <Button
+        android:text="Mostrar Fotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMostrarFotoDeuda" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/imageViewQuienDebo"
+        android:layout_weight="0.48" />
+
+</LinearLayout>

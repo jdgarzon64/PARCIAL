@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/prestamos"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Registrar Prestamos" />
+        <item
+            android:id="@+id/listadoPrestamos"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Listado Prestamos" />
+        <item
+            android:id="@+id/deudas"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Registrar Deudas" />
+        <item
+            android:id="@+id/listadoDeudas"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Listar Deudas" />
+        <item
+        android:id="@+id/diferencia"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Ver Diferencia" />
+    </group>
+
+</menu>
